@@ -1,0 +1,18 @@
+## Interface: 11200
+## Title: |cffffaa00gx|r|cff999999LuaPlus|r
+## Notes: Extends Lua 5.0 and World of Warcraft with handy functions
+## Author: martinjlowm
+## Version:
+
+## X-Email: martin@martinjlowm.dk
+## X-Website: http://martinjlowm.dk
+
+## DefaultState: enabled
+
+String.lua
+Table.lua
+Math.lua
+
+Debug.lua
+
+Attack.lua
