@@ -2,7 +2,7 @@
 ## Title: |cffffaa00gx|r|cff999999LuaPlus|r
 ## Notes: Extends Lua 5.0 and World of Warcraft with handy functions
 ## Author: martinjlowm
-## Version: 0.1
+## Version: 0.1-2-g4addbe8
 
 ## X-Email: martin@martinjlowm.dk
 ## X-Website: http://martinjlowm.dk
@@ -15,4 +15,4 @@ Math.lua
 
 Debug.lua
 
-Attack.lua
+Mount.lua

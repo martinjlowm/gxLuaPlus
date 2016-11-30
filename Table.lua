@@ -1,6 +1,6 @@
 local _G = getfenv(0)
 
--- Implement select as available in Lua 5.1
+-- Implements select
 _G.select = function(idx, ...)
     local len = table.getn(arg)
 
@@ -16,3 +16,13 @@ _G.select = function(idx, ...)
         return unpack(tbl)
     end
 end
+
+-- table.wipe
+_G.table.wipe = function(tbl)
+    for k in pairs(tbl) do
+        tbl[k] = nil
+    end
+end
+
+-- wipe
+_G.wipe = _G.table.wipe
